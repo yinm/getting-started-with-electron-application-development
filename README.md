@@ -1,1 +1,1 @@
-# getting-started-with-electron-application-development
+[Electronではじめるアプリ開発 ～JavaScript/HTML/CSSでデスクトップアプリを作ろう](http://gihyo.jp/book/2017/978-4-7741-8819-5)をやってます
