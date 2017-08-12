@@ -6,7 +6,7 @@ export default class Signup extends React.Component {
     return (
       <div>
         <h2>Signup</h2>
-        <Link to="/rooms">Create new account</Link><br />
+        <Link to="/rooms">Create new account</Link> <br />
         <Link to="/login">cancel</Link>
       </div>
     );
