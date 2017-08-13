@@ -19,7 +19,7 @@ export default class MarkdownEditorUI extends React.Component {
         <Editor
           className={style.editorArea}
           value={this.state.text}
-          onChange={this.onChagneText}
+          onChange={this.onChangeText}
         />
       </div>
     );
