@@ -1,4 +1,5 @@
 import React from "react";
+import Editor from "./Editor";
 
 export default class MarkdownEditorUI extends React.Component {
   constructor(props) {
@@ -14,7 +15,10 @@ export default class MarkdownEditorUI extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, MarkdownEditor!</h1>
+        <Editor
+          value={this.state.text}
+          onChange={this.onChagneText}
+        />
       </div>
     );
   }
