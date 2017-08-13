@@ -1,5 +1,6 @@
 import React from "react";
 import Editor from "./Editor";
+import style from "./MarkdownEditorUI.css";
 
 export default class MarkdownEditorUI extends React.Component {
   constructor(props) {
@@ -14,8 +15,9 @@ export default class MarkdownEditorUI extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={style.markdownEditor}>
         <Editor
+          className={style.editorArea}
           value={this.state.text}
           onChange={this.onChagneText}
         />
