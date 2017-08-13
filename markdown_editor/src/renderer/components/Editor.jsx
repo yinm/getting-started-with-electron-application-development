@@ -3,7 +3,7 @@ import style from "./Editor.css";
 
 export default function Editor(props) {
   return (
-    <textareaa
+    <textarea
       id="editor"
       className={`${style.editor} ${props.className}`}
       value={props.value}
